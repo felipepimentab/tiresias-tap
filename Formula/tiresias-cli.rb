@@ -1,20 +1,20 @@
 class TiresiasCli < Formula
   desc "Tiresias firmware development environment checker"
   homepage "https://github.com/felipepimentab/tiresias-cli"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/felipepimentab/tiresias-cli/releases/download/v0.1.1/tiresias-macos"
-      sha256 "908b4ed09d1afb28f525ed961874d146510316c2eae3f3884d92ba7691a7d422"
+      url "https://github.com/felipepimentab/tiresias-cli/releases/download/v0.1.2/tiresias-macos"
+      sha256 "0b5bb651e8c784521f84fdd4b65201912abf4aad5f599cf5976afaaff9c64254"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/felipepimentab/tiresias-cli/releases/download/v0.1.1/tiresias-linux"
-      sha256 "9c80bbc5470e81d020bede900c5f2dc8c02c7b7a6a3e672bd8e76b5053fc56ca"
+      url "https://github.com/felipepimentab/tiresias-cli/releases/download/v0.1.2/tiresias-linux"
+      sha256 "cd876a38704efff888cf2cd6238b2cc3d56eb7da14f4bc6d69948dc5c5a126e2"
     end
   end
 
