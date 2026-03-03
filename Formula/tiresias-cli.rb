@@ -27,6 +27,7 @@ class TiresiasCli < Formula
   end
 
   test do
+    assert_match version.to_s, shell_output("#{bin}/tiresias --version")
     assert_match "Tiresias firmware development environment checker", shell_output("#{bin}/tiresias --help")
   end
 end
