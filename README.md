@@ -1,6 +1,6 @@
-# tiresias-tap
+# Tiresias Homebrew Tap
 
-Homebrew tap for Tiresias tools.
+Homebrew tap repository for Tiresias tools.
 
 ## Available packages
 
@@ -8,7 +8,6 @@ Homebrew tap for Tiresias tools.
 
 ## Install
 
-```bash
-brew tap felipepimentab/tiresias-tap
-brew install tiresias-cli
+```sh
+brew install felipepimentab/tiresias/tiresias-cli  
 ```
